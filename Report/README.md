@@ -68,3 +68,5 @@ $\[
 $\[
 \text{SF} = \frac{\sigma_y}{\sigma_{\max}} = 12.76
 \]$
+
+These closed-form results served as the benchmark for ANSYS validation.
