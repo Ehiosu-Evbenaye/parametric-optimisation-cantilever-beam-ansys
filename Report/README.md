@@ -33,23 +33,25 @@ Material Properties (S355 Structural Steel)
  * Density $(\rho): 7850\text{ kg/m}^3$
 
 Cross‑Sectional Area (A)
-The total cross-sectional area accounts for the three primary rectangular sections and the geometric contribution of the four root fillets:
-$A = [2b_f t_f + t_w(h - 2t_f)] + [4r^2 - \pi r^2]$
+The total cross-sectional area accounts for the three primary rectangular sections and the geometric contribution of the four root fillets: <br>
+$A = [2b_f t_f + t_w(h - 2t_f)] + [4r^2 - \pi r^2]$ <br>
+$A = 0.0072 + 0.0000858 = 0.0072858 \text{ m}^2$
 
+Mass $(m)$ <br>
+$m = \rho A L = 7850 \times 0.0072858 \times 2 = 114.39 \text{ kg}$
 
-Mass (m)
 
 (Note: Including the fillets adds approximately 1.35 kg to the baseline mass).
-Second Moment of Area (I_{xx})
-The total I_{xx} accounts for the fillets using the parallel axis theorem for the circular segments:
+Second Moment of Area $(I_{xx})$
+The total $I_{xx}$ accounts for the fillets using the parallel axis theorem for the circular segments:
 
-Maximum Deflection (Free End, Load P = 10\text{ kN})
-Maximum Bending Stress (\sigma_{max})
+Maximum Deflection (Free End, Load $P = 10\text{ kN}$)
+Maximum Bending Stress ($\sigma_{max}$)
 Calculated at the outermost fiber (fixed end):
 
 Safety Factor Against Yield
 Next Steps
  * Mesh Refinement: Using ANSYS "Sizing" controls to ensure the 10mm fillets are captured with at least 3 elements across the arc.
- * Parametric Taper Study: Varying b_f and h along the length L while keeping r constant to observe mass-to-stiffness sensitivity.
+ * Parametric Taper Study: Varying $b_f$ and $h$ along the length L while keeping r constant to observe mass-to-stiffness sensitivity.
  * Final Verification: Comparing ANSYS Von Mises stress at the fillet transition against the analytical bending stress adjusted by a concentration factor.
  * 
