@@ -17,6 +17,7 @@ For this project, a 10mm fillet radius is included at the web-flange junction. T
  * Stress Distribution: Reducing the stress concentration factor $(K_t)$ where the flange meets the web.
  * Manufacturability: Reflecting the geometry of standard hot-rolled structural sections.
  * Simulation Accuracy: Preventing mathematical stress singularities in ANSYS that occur at sharp 90-degree internal corners.
+
 Baseline Uniform I‑Section Dimensions
  * Total height $(h): 300\text{ mm} = 0.3\text{ m}$
  * Flange width $(b_f): 150\text{ mm} = 0.15\text{ m}$
@@ -24,13 +25,16 @@ Baseline Uniform I‑Section Dimensions
  * Web thickness $(t_w): 10\text{ mm} = 0.01\text{ m}$
  * Fillet radius $(r): 10\text{ mm} = 0.01\text{ m}$
  * Beam length $(L): 2\text{ m}$
+
 Material Properties (S355 Structural Steel)
  * Young’s modulus $(E): 210\text{ GPa}$
  * Poisson’s ratio $(\nu): 0.3$
  * Yield strength $(\sigma_y): 355\text{ MPa}$
  * Density $(\rho): 7850\text{ kg/m}^3$
-Analytical Calculations (Refined Theory)
+
+Analytical Calculations <br>
 These results include the contribution of the four fillets to the cross-sectional properties.
+
 Cross‑Sectional Area (A)
 The area includes the three rectangles plus the four "fillet complements":
 
