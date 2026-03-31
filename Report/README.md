@@ -19,12 +19,12 @@ For this project, a 10mm fillet radius is included at the web-flange junction. T
  * Simulation Accuracy: Preventing mathematical stress singularities in ANSYS that occur at sharp 90-degree internal corners.
 
 Baseline Uniform I‑Section Dimensions
- * Total height $(h): 300\text{ mm} = 0.3\text{ m}$
- * Flange width $(b_f): 150\text{ mm} = 0.15\text{ m}$
- * Flange thickness $(t_f): 15\text{ mm} = 0.015\text{ m}$
- * Web thickness $(t_w): 10\text{ mm} = 0.01\text{ m}$
- * Fillet radius $(r): 10\text{ mm} = 0.01\text{ m}$
- * Beam length $(L): 2\text{ m}$
+ * Total height $(h): 300\text{ mm}$
+ * Flange width $(b_f): 150\text{ mm}$
+ * Flange thickness $(t_f): 15\text{ mm}$
+ * Web thickness $(t_w): 10\text{ mm}$
+ * Fillet radius $(r): 10\text{ mm}$
+ * Beam length $(L): 2000\text{ mm}$
 
 Material Properties (S355 Structural Steel)
  * Young’s modulus $(E): 210\text{ GPa}$
