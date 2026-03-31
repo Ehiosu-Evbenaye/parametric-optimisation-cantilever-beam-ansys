@@ -32,11 +32,10 @@ Material Properties (S355 Structural Steel)
  * Yield strength $(\sigma_y): 355\text{ MPa}$
  * Density $(\rho): 7850\text{ kg/m}^3$
 
-Analytical Calculations <br>
-These results include the contribution of the four fillets to the cross-sectional properties.
-
 Cross‑Sectional Area (A)
-The area includes the three rectangles plus the four "fillet complements":
+The total cross-sectional area accounts for the three primary rectangular sections and the geometric contribution of the four root fillets:
+$A = [2b_f t_f + t_w(h - 2t_f)] + [4r^2 - \pi r^2]$
+
 
 Mass (m)
 
