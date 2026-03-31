@@ -24,7 +24,7 @@ An I‑section (universal beam or H‑beam) was deliberately selected because it
 Compared with rectangular, circular, or box sections of equal mass, an I‑beam dramatically reduces both deflection and peak bending stress. This geometry is standard in real‑world applications (machine brackets, gantry arms, building canopies) and is natively supported in ANSYS for parametric studies.
 
 ### Baseline Uniform I‑Section Dimensions (chosen for realism and manufacturability)
-- Total height $h = 300\ \text{mm} = 0.3\ \text{mm}$
+- Total height $h = 300\ \text{mm} = 0.3\ \text{m}$
 - Flange width $b_f = 150\ \text{mm} = 0.15\ \text{m}\$
 - Flange thickness $t_f = 15\ \text{mm} = 0.015\ \text{m}\$
 - Web thickness $t_w = 10\ \text{mm} = 0.01\ \text{m}\$
