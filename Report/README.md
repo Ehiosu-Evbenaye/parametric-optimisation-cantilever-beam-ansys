@@ -49,9 +49,8 @@ Maximum Deflection (Free End, Load $P = 10\text{ kN}$)
 Maximum Bending Stress ($\sigma_{max}$)
 Calculated at the outermost fiber (fixed end):
 
-Safety Factor Against Yield
+Safety Factor Against Yield <br>
 Next Steps
  * Mesh Refinement: Using ANSYS "Sizing" controls to ensure the 10mm fillets are captured with at least 3 elements across the arc.
  * Parametric Taper Study: Varying $b_f$ and $h$ along the length L while keeping r constant to observe mass-to-stiffness sensitivity.
  * Final Verification: Comparing ANSYS Von Mises stress at the fillet transition against the analytical bending stress adjusted by a concentration factor.
- * 
