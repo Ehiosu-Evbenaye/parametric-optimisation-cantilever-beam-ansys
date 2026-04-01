@@ -43,6 +43,7 @@ The maximum vertical displacement occurs at the free end (x = L).
  $E = 210,000\text{ N/mm}^2 (210 GPa)$ <br>
  $I_{xx} = 107,865,000 \, \text{mm}^4 \$
 
+Calculation: <br>
 $\\delta_{max} = \frac{10,000 \times (2,000)^3}{3 \times 210,000 \times 107,865,000}\$
 
 $\\delta_{max} = \frac{8 \times 10^{13}}{67,954,950,000} \approx 1.177 \, \text{mm}\$
