@@ -8,3 +8,6 @@ Converting that to $m^3$, we divide by $1,000,000,000$ since $\( 1 \ m^3 = 10^9 
 $\[
 V = \frac{14,400,000}{1,000,000,000} \ m^3 = 0.0144 \ m^3
 \]$
+
+[Find full calculations in Reports](https://github.com/Ehiosu-Evbenaye/parametric-optimisation-cantilever-beam-ansys/blob/main/Report/Report.md)
+
