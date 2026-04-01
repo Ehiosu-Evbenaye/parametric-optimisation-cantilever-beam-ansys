@@ -88,9 +88,9 @@ General Equation: The Flexure Formula
 The stress is highest at the outermost fibers (top or bottom surface) at the fixed end of the cantilever:
 
  * Moment $(M)$: $Force \times Distance$ = $10,000\text{ N} \times 2000\text{ mm} = 2 \times 10^7\text{ N}\cdot\ mm$
- * Distance to outer fiber (c): $h/2 = 150\ mm$
+ * Distance to outer fiber (c): h/2 = $150\ mm$
 
-Calculation
+Calculation <br>
 $\sigma_{max} = \frac{(2 \times 10^7) \times 150}{107,865,000} = \frac{3,000,000,000}{107,865,000} \approx 27.81\text{ MPa}$
 
 ##### Maximum Deflection $(\delta_{max})$ <br>
@@ -105,9 +105,7 @@ Calculation (using mm and N/mm²)
 - $E = 210,000 \ MPa = 210 \ (GPa)$
 - $I_{xx} = 107,865,000 \ \{mm}^4$
 
-$\[
-\delta_{\text{max}} = \frac{10,000 \times 2000^3}{3 \times 210,000 \times 107,865,000} = \frac{8 \times 10}{6.795 \times}
-\]$
+$\delta_{max} = \frac{10,000 \times 2000^3}{3 \times 210,000 \times 107,865,000} = \frac{8 \times 10^{13}}{6.795 \times 10^{13}} \approx 1.177\text{ mm}$
 
 ##### Safety Factor (FoS)
 
