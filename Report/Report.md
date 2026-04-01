@@ -62,35 +62,71 @@ Where:
  * d: Distance from the local centroid of the part to the overall neutral axis of the beam.
 
 2. Step-by-Step Calculation
-For a symmetric I-section, the neutral axis passes through the exact center of the web.
-A. The Web
+For a symmetric I-section, the neutral axis passes through the exact center of the web. <br>
+
+A. The Web <br>
 The centroid of the web is at the neutral axis, so d = 0.
- * $Width (t_w): 10\ mm$
- * $Height (h_w): 300 - (2 \times 15) = 270\text{ mm}$
+ * Width $(t_w): 10\ mm$
+ * Height $(h_w): 300 - (2 \times 15) = 270\ mm$
    
 B. The Flanges (Top & Bottom)
-Since both flanges are identical and equidistant from the N.A., we calculate one and multiply by two.
-The distance (d) from the N.A. to the center of the flange is:
-d = \frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\text{ mm}
- * Local Moment (I_f): \frac{150 \times 15^3}{12} = 42,187.5\text{ mm}^4
- * Area (A_f): 2250\text{ mm}^2 (calculated in your area section)
- * A \cdot d^2 Term: 2250 \times 142.5^2 = 2250 \times 20,306.25 = 45,689,062.5\text{ mm}^4
-C. Total I_{xx}
-In scientific notation: 1.07865 \times 10^8\text{ mm}^4 or 1.07865 \times 10^{-4}\text{ m}^4.
-Maximum Bending Stress (\sigma_{max})
+Since both flanges are identical and equidistant from the neutral axis, we calculate one and multiply by two.
+The distance (d) from the neutral axis to the center of the flange is:
+d = $\frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\ mm$
+ * Local Moment $(I_f): \frac{150 \times 15^3}{12} = 42,187.5\ mm^4$
+ * Area $(A_f)$: 2250\ mm^2$
+ * A $\cdot d^2$ Term: $2250 \times 142.5^2 = 2250 \times 20,306.25 = 45,689,062.5\ mm^4$
+
+C. Total $I_{xx}$
+In scientific notation: 1.07865 \times 10^8\ mm^4 or 1.07865 \times 10^{-4}\ m}^4$.
+Maximum Bending Stress $(\sigma_{max})$
+
 General Equation: The Flexure Formula
 The stress is highest at the outermost fibers (top or bottom surface) at the fixed end of the cantilever:
 
- * Moment (M): Force \times Distance = 10,000\text{ N} \times 2000\text{ mm} = 2 \times 10^7\text{ N}\cdot\text{mm}
- * Distance to outer fiber (c): h/2 = 150\text{ mm}
+ * Moment $(M)$: $Force \times Distance$ = $10,000\text{ N} \times 2000\text{ mm} = 2 \times 10^7\text{ N}\cdot\ mm$
+ * Distance to outer fiber (c): $h/2 = 150\ mm$
+$\delta_{max} = \frac{P \cdot L^3}{3 \cdot E \cdot I_{xx}}$
+
 Calculation
-Maximum Deflection (\delta_{max})
+Maximum Deflection $(\delta_{max})$
 General Equation: Cantilever Beam with End Load
 For a cantilever with a point load at the free end:
 
 Calculation (using mm and N/mm²)
- *  *  * E = 210,000\text{ MPa} (210\text{ GPa})
- * Safety Factor (FoS)
+## Beam Section Properties
+
+- \( P = 10,000 \, \text{N} \)
+- \( L = 2000 \, \text{mm} \)
+- \( E = 210,000 \, \text{MPa} \, (210 \, \text{GPa}) \)
+- \( I_{xx} = 107,865,000 \, \text{mm}^4 \)
+
+### Deflection
+
+\[
+\delta_{\text{max}} = \frac{10,000 \times 2000^3}{3 \times 210,000 \times 107,865,000} = \frac{8 \times 10}{6.795 \times}
+\]
+
+(Note: The final expression appears incomplete in the original.)
+
+### Safety Factor (FoS)
+
+General equation:
+
+\[
+FoS = \frac{\sigma_y}{\sigma_{\text{max}}}
+\]
+
+Calculation:
+
+\[
+FoS = \frac{355 \, \text{MPa}}{27.81 \, \text{MPa}} \approx 12.76
+\]
+
+
+$E = 210,000\text{ MPa} (210\text{ GPa})$
+
+Safety Factor (FoS)
 General Equation
 Calculation
 
