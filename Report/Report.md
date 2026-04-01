@@ -31,6 +31,7 @@ Material Properties (S355 Structural Steel)
  * Yield strength $(\sigma_y): 355\text{ MPa}$
  * Density $(\rho): 7850\text{ kg/m}^3$
 
+### Geometric Properties 
 Cross‑Sectional Area (A) <br>
 The total cross-sectional area accounts for the three primary rectangular sections (ignoring the weld area): <br>
 Area of top flange = $b_f \times f_f = 150 \times 15 = 2250\ mm^2$ <br>
@@ -52,7 +53,7 @@ Mass $(m)$ <br>
 $m = \rho \times V = 7850 \times 0.0144 = 113.04 \text{ kg}$
 
 
-
+### Section Properties 
 Second Moment of Area $(I_{xx})$
 The total $I_{xx}$ accounts for the fillets using the parallel axis theorem for the circular segments:
 
