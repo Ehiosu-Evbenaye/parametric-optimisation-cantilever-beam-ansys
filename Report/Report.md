@@ -32,9 +32,8 @@ Material Properties (S355 Structural Steel)
  * Density $(\rho): 7850\text{ kg/m}^3$
 
 Cross‑Sectional Area (A)
-The total cross-sectional area accounts for the three primary rectangular sections and the geometric contribution of the four root fillets: <br>
-$A = [2b_f t_f + t_w(h - 2t_f)] + [4r^2 - \pi r^2]$ <br>
-$A = 0.0072 + 0.0000858 = 0.0072858 \text{ m}^2$
+The total cross-sectional area accounts for the three primary rectangular sections (ignoring the weld area): <br>
+Area of top flange = $b_f × f_f = 150 × 15 = 2250 mm²$
 
 Mass $(m)$ <br>
 $m = \rho A L = 7850 \times 0.0072858 \times 2 = 114.39 \text{ kg}$
