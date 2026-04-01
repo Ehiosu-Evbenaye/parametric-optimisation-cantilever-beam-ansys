@@ -54,12 +54,47 @@ $m = \rho \times V = 7850 \times 0.0144 = 113.04 \text{ kg}$
 
 
 ### Section Properties 
-Second Moment of Area $(I_{xx})$
+1. General Equation: Parallel Axis Theorem
+The general formula used to find the moment of area for a complex shape made of several rectangular parts is the Parallel Axis Theorem: $I_{total} = \sum (I_{local} + A \cdot d^2)$ <br>
+Where:
+ * $I_{local} = \frac{b \cdot h^3}{12} (The local moment of area for a rectangle).$
+ * A: Area of the specific part.
+ * d: Distance from the local centroid of the part to the overall neutral axis of the beam.
+
+2. Step-by-Step Calculation
+For a symmetric I-section, the neutral axis passes through the exact center of the web.
+A. The Web
+The centroid of the web is at the neutral axis, so d = 0.
+ * $Width (t_w): 10\ mm$
+ * $Height (h_w): 300 - (2 \times 15) = 270\text{ mm}$
+   
+B. The Flanges (Top & Bottom)
+Since both flanges are identical and equidistant from the N.A., we calculate one and multiply by two.
+The distance (d) from the N.A. to the center of the flange is:
+d = \frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\text{ mm}
+ * Local Moment (I_f): \frac{150 \times 15^3}{12} = 42,187.5\text{ mm}^4
+ * Area (A_f): 2250\text{ mm}^2 (calculated in your area section)
+ * A \cdot d^2 Term: 2250 \times 142.5^2 = 2250 \times 20,306.25 = 45,689,062.5\text{ mm}^4
+C. Total I_{xx}
+In scientific notation: 1.07865 \times 10^8\text{ mm}^4 or 1.07865 \times 10^{-4}\text{ m}^4.
+Maximum Bending Stress (\sigma_{max})
+General Equation: The Flexure Formula
+The stress is highest at the outermost fibers (top or bottom surface) at the fixed end of the cantilever:
+
+ * Moment (M): Force \times Distance = 10,000\text{ N} \times 2000\text{ mm} = 2 \times 10^7\text{ N}\cdot\text{mm}
+ * Distance to outer fiber (c): h/2 = 150\text{ mm}
+Calculation
+Maximum Deflection (\delta_{max})
+General Equation: Cantilever Beam with End Load
+For a cantilever with a point load at the free end:
+
+Calculation (using mm and N/mm²)
+ *  *  * E = 210,000\text{ MPa} (210\text{ GPa})
+ * Safety Factor (FoS)
+General Equation
+Calculation
 
 
-Maximum Deflection (Free End, Load $P = 10\text{ kN}$)
-Maximum Bending Stress ($\sigma_{max}$)
-Calculated at the outermost fiber (fixed end):
 
 Safety Factor Against Yield <br>
 Next Steps
