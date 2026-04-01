@@ -37,18 +37,21 @@ Area of top flange = $b_f \times f_f = 150 \times 15 = 2250\ mm^2$ <br>
 Area of bottom flange = $b_f \times f_f = 150 \times 15 = 2250\ mm^2$ <br>
 Area of web = $t_w \times (h - 2t_f) = 10 \times (300 - 30) = 10 \times 270 = 2700\ mm^2$ <br>
 Total = $2250 + 2250 + 2700 = 7200\ mm^2$
+(Note: The weld area is ignored).
 
 Volume 
 $V = 7200 mm^2 \times 2000 mm^2 = 14,400,000 \ mm^3$ <br>
-Converting that to $m^3$, we'll divide the value by 
-
+Converting that to $m^3$, we divide by $1,000,000,000$ since $\( 1 \ m^3 = 10^9 \ mm^3 \):$ <br>
+$\[
+V = \frac{14,400,000}{1,000,000,000} \ m^3 = 0.0144 \ m^3
+\]$
 
 
 
 Mass $(m)$ <br>
-$m = \rho A L = 7850 \times 0.0072858 \times 2 = 114.39 \text{ kg}$
+$m = \rho \times V = 7850 \times 0.0144 = 114.39 \text{ kg}$
 
-(Note: The weld area is ignored).
+
 
 Second Moment of Area $(I_{xx})$
 The total $I_{xx}$ accounts for the fillets using the parallel axis theorem for the circular segments:
