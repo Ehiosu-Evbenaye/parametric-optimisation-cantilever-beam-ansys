@@ -55,7 +55,7 @@ $m = \rho \times V = 7850 \times 0.0144 = 113.04 \text{ kg}$
 
 ### Section Properties 
 Second Moment of Area $(I_{xx})$
-The total $I_{xx}$ accounts for the fillets using the parallel axis theorem for the circular segments:
+
 
 Maximum Deflection (Free End, Load $P = 10\text{ kN}$)
 Maximum Bending Stress ($\sigma_{max}$)
