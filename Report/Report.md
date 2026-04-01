@@ -78,8 +78,8 @@ d = $\frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\ mm$
  * A $\cdot d^2$ Term: $2250 \times 142.5^2 = 2250 \times 20,306.25 = 45,689,062.5\ mm^4$
 
 C. Total $I_{xx}$
-In scientific notation: $1.07865 \times 10^8\ mm^4 or 1.07865 \times 10^-4}\ m^4$. <br>
-
+In scientific notation: $1.07865 \times 10^8\ mm^4 or 1.07865 \times 10^{-4}\ m^4$. <br>
+*To convert $mm^4$ to $m^4$, divide the value by $10^12$.*
 
 ##### Maximum Bending Stress $(\sigma_{max})$
 
