@@ -69,7 +69,7 @@ The centroid of the web is at the neutral axis, so d = 0.
  * Width $(t_w): 10\ mm$
  * Height $(h_w): 300 - (2 \times 15) = 270\ mm$
    
-B. The Flanges (Top & Bottom)
+B. The Flanges (Top & Bottom) <br>
 Since both flanges are identical and equidistant from the neutral axis, we calculate one and multiply by two.
 The distance (d) from the neutral axis to the center of the flange is:
 d = $\frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\ mm$
