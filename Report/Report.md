@@ -89,21 +89,21 @@ The stress is highest at the outermost fibers (top or bottom surface) at the fix
 
  * Moment $(M)$: $Force \times Distance$ = $10,000\text{ N} \times 2000\text{ mm} = 2 \times 10^7\text{ N}\cdot\ mm$
  * Distance to outer fiber (c): $h/2 = 150\ mm$
-$\delta_{max} = \frac{P \cdot L^3}{3 \cdot E \cdot I_{xx}}$
 
 Calculation
-Maximum Deflection $(\delta_{max})$ <br>
+$\sigma_{max} = \frac{(2 \times 10^7) \times 150}{107,865,000} = \frac{3,000,000,000}{107,865,000} \approx 27.81\text{ MPa}$
+
+##### Maximum Deflection $(\delta_{max})$ <br>
 General Equation: Cantilever Beam with End Load
-For a cantilever with a point load at the free end:
+For a cantilever with a point load at the free end: <br>
+
+$\delta_{max} = \frac{P \cdot L^3}{3 \cdot E \cdot I_{xx}}$
 
 Calculation (using mm and N/mm²)
-
 - $P = 10,000 \ N$
 - $L = 2000 \ mm$
 - $E = 210,000 \ MPa = 210 \ (GPa)$
 - $I_{xx} = 107,865,000 \ \{mm}^4$
-
-##### Deflection
 
 $\[
 \delta_{\text{max}} = \frac{10,000 \times 2000^3}{3 \times 210,000 \times 107,865,000} = \frac{8 \times 10}{6.795 \times}
