@@ -1,7 +1,7 @@
 # Parametric Optimisation of a Steel Cantilever Beam Using ANSYS Workbench
 Current stage: Baseline validation complete; taper optimisation and final verification underway. Full report will be updated upon completion.
 
-## Project Overview (as of March 2026)
+## Project Overview
 This project performs a static structural analysis and parametric optimisation of a steel cantilever beam in ANSYS Workbench. The goal is to minimise mass while maintaining a minimum safety factor of 2.0 against yield under a transverse end load. <br>
 Completed
  * Baseline FEA model validated against refined analytical theory (<3% deflection error)
@@ -23,7 +23,6 @@ Baseline Uniform I‑Section Dimensions
  * Flange width $(b_f): 150\text{ mm}$
  * Flange thickness $(t_f): 15\text{ mm}$
  * Web thickness $(t_w): 10\text{ mm}$
- * Fillet radius $(r): 10\text{ mm}$
  * Beam length $(L): 2000\text{ mm}$
 
 Material Properties (S355 Structural Steel)
@@ -40,8 +39,8 @@ $A = 0.0072 + 0.0000858 = 0.0072858 \text{ m}^2$
 Mass $(m)$ <br>
 $m = \rho A L = 7850 \times 0.0072858 \times 2 = 114.39 \text{ kg}$
 
+(Note: The weld area is ignored).
 
-(Note: Including the fillets adds approximately 1.35 kg to the baseline mass).
 Second Moment of Area $(I_{xx})$
 The total $I_{xx}$ accounts for the fillets using the parallel axis theorem for the circular segments:
 
