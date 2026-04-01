@@ -48,9 +48,8 @@ $\\delta_{max} = \frac{10,000 \times (2,000)^3}{3 \times 210,000 \times 107,865,
 
 $\\delta_{max} = \frac{8 \times 10^{13}}{67,954,950,000} \approx 1.177 \, \text{mm}\$
 
-
-
-
+<br>
+<br>
 Summary Table for Baseline Validation
 | Parameter | Analytical Value | Unit |
 |---|---|---|
