@@ -54,7 +54,7 @@ $m = \rho \times V = 7850 \times 0.0144 = 113.04 \text{ kg}$
 
 
 ### Section Properties 
-1. General Equation: Parallel Axis Theorem
+1. General Equation: Parallel Axis Theorem <br>
 The general formula used to find the moment of area for a complex shape made of several rectangular parts is the Parallel Axis Theorem: $I_{total} = \sum (I_{local} + A \cdot d^2)$ <br>
 Where:
  * $I_{local} = \frac{b \cdot h^3}{12}$ (The local moment of area for a rectangle).
