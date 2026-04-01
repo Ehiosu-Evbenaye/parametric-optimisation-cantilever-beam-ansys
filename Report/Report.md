@@ -49,7 +49,7 @@ V = \frac{14,400,000}{1,000,000,000} \ m^3 = 0.0144 \ m^3
 
 
 Mass $(m)$ <br>
-$m = \rho \times V = 7850 \times 0.0144 = 114.39 \text{ kg}$
+$m = \rho \times V = 7850 \times 0.0144 = 113.04 \text{ kg}$
 
 
 
