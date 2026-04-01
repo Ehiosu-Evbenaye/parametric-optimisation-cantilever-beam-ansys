@@ -41,9 +41,11 @@ The maximum vertical displacement occurs at the free end (x = L).
  $P = 10,000\text{ N}$ <br>
  $L = 2,000\text{ mm}$ <br>
  $E = 210,000\text{ N/mm}^2 (210 GPa)$ <br>
- 
-Calculation:
+ $I_{xx} = 107,865,000 \, \text{mm}^4 \$
 
+$\\delta_{max} = \frac{10,000 \times (2,000)^3}{3 \times 210,000 \times 107,865,000}\$
+
+$\\delta_{max} = \frac{8 \times 10^{13}}{67,954,950,000} \approx 1.177 \, \text{mm}\$
 
 Summary Table for Baseline Validation
 | Parameter | Analytical Value | Unit |
