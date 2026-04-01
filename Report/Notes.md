@@ -38,12 +38,13 @@ The maximum vertical displacement occurs at the free end (x = L).
  Formula: $\delta_{max}$ = $\frac{P L^3}{3 E I_{xx}}$
  
  Input Values:
- P = 10,000\text{ N}
- L = 2,000\text{ mm}
- 
- $E = 210,000\text{ N/mm}^2 (210 GPa)$
+ P = 10,000\text{ N} <br>
+ L = 2,000\text{ mm} <br>
+ $E = 210,000\text{ N/mm}^2 (210 GPa)$ <br>∆
  
 Calculation:
+
+
 Summary Table for Baseline Validation
 | Parameter | Analytical Value | Unit |
 |---|---|---|
