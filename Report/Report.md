@@ -78,8 +78,10 @@ d = $\frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\ mm$
  * A $\cdot d^2$ Term: $2250 \times 142.5^2 = 2250 \times 20,306.25 = 45,689,062.5\ mm^4$
 
 C. Total $I_{xx}$
-In scientific notation: 1.07865 \times 10^8\ mm^4 or 1.07865 \times 10^{-4}\ m}^4$.
-Maximum Bending Stress $(\sigma_{max})$
+In scientific notation: $1.07865 \times 10^8\ mm^4 or 1.07865 \times 10^-4}\ m^4$. <br>
+
+
+##### Maximum Bending Stress $(\sigma_{max})$
 
 General Equation: The Flexure Formula
 The stress is highest at the outermost fibers (top or bottom surface) at the fixed end of the cantilever:
@@ -94,7 +96,6 @@ General Equation: Cantilever Beam with End Load
 For a cantilever with a point load at the free end:
 
 Calculation (using mm and N/mm²)
-## Beam Section Properties
 
 - \( P = 10,000 \, \text{N} \)
 - \( L = 2000 \, \text{mm} \)
