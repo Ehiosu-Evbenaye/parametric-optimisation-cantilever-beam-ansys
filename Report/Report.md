@@ -74,12 +74,13 @@ Since both flanges are identical and equidistant from the neutral axis, we calcu
 The distance (d) from the neutral axis to the center of the flange is:
 d = $\frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\ mm$
  * Local Moment $(I_f): \frac{150 \times 15^3}{12} = 42,187.5\ mm^4$
- * Area $(A_f)$: 2250\ mm^2$
+ * Area $(A_f): 2250\ mm^2$
  * A $\cdot d^2$ Term: $2250 \times 142.5^2 = 2250 \times 20,306.25 = 45,689,062.5\ mm^4$
 
 C. Total $I_{xx}$
-In scientific notation: $1.07865 \times 10^8\ mm^4 or 1.07865 \times 10^{-4}\ m^4$. <br>
-*To convert $mm^4$ to $m^4$, divide the value by $10^12$.*
+In scientific notation: $1.07865 \times 10^8\ mm^4$ or $1.07865 \times 10^{-4}\ m^4$. <br>
+To convert $mm^4$ to $m^{4}$, divide the value by $10^{12}$.
+
 
 ##### Maximum Bending Stress $(\sigma_{max})$
 
@@ -102,7 +103,7 @@ Calculation (using mm and N/mm²)
 - \( E = 210,000 \, \text{MPa} \, (210 \, \text{GPa}) \)
 - \( I_{xx} = 107,865,000 \, \text{mm}^4 \)
 
-### Deflection
+#### Deflection
 
 \[
 \delta_{\text{max}} = \frac{10,000 \times 2000^3}{3 \times 210,000 \times 107,865,000} = \frac{8 \times 10}{6.795 \times}
@@ -110,7 +111,7 @@ Calculation (using mm and N/mm²)
 
 (Note: The final expression appears incomplete in the original.)
 
-### Safety Factor (FoS)
+#### Safety Factor (FoS)
 
 General equation:
 
