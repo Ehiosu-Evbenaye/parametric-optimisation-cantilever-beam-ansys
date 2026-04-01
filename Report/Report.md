@@ -111,27 +111,24 @@ $\delta_{max} = \frac{10,000 \times 2000^3}{3 \times 210,000 \times 107,865,000}
 
 General equation:
 
-$\[
-FoS = \frac{\sigma_y}{\sigma_{\text{max}}}
-\]$
+$FoS = \frac{\sigma_y}{\sigma_{\text{max}}}\$
 
 Calculation:
 
-$\[
-FoS = \frac{355 \, \text{MPa}}{27.81 \, \text{MPa}} \approx 12.76
-\]$
+$FoS = \frac{355 \, \text{MPa}}{27.81 \, \text{MPa}} \approx 12.76\$
 
 
-$E = 210,000\text{ MPa} (210\text{ GPa})$
 
 Safety Factor (FoS)
 General Equation
+$FoS = \frac{\sigma_y}{\sigma_{max}}$
+
 Calculation
+$FoS = \frac{355\text{ MPa}}{27.81\text{ MPa}} \approx 12.76$
 
 
 
-Safety Factor Against Yield <br>
-Next Steps
- * Mesh Refinement: Using ANSYS "Sizing" controls to ensure the 10mm fillets are captured with at least 3 elements across the arc.
- * Parametric Taper Study: Varying $b_f$ and $h$ along the length L while keeping r constant to observe mass-to-stiffness sensitivity.
- * Final Verification: Comparing ANSYS Von Mises stress at the fillet transition against the analytical bending stress adjusted by a concentration factor.
+.... 
+....
+.....
+....
