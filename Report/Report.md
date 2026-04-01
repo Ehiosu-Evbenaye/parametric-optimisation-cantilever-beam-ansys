@@ -141,9 +141,10 @@ The shear force is constant throughout the length of the beam because there are 
 The bending moment varies linearly, reaching its maximum magnitude at the fixed support $(x = 0)$ and decreasing to zero at the free end.
  * Equation: $M(x) = -P \cdot (L - x)$
  * Maximum Moment $(M_{max}): Occurs at x = 0 (the wall).$
+
  
  
- ##### 2. Analytical Stress and Deflection
+ ### 2. Analytical Stress and Deflection
 A. Normal Bending Stress $(\sigma)$
 Using the Euler-Bernoulli beam theory, the maximum bending stress occurs at the outermost fibers $(y = c)$ at the fixed end.
  Section Modulus $(S_x): S_x = \frac{I_{xx}}{c}$
