@@ -13,7 +13,7 @@ In Progress
  * Full technical documentation
 
 ## Why an I‑Section Was Chosen
-An I‑section (universal beam or H‑beam) was deliberately selected because it is the most structurally efficient shape for bending‑dominated cantilevers. Material is concentrated in the flanges, giving the highest second moment of area $(I_{xx})$ per unit mass.
+An I‑section (universal beam) was deliberately selected because it is the most structurally efficient shape for bending‑dominated cantilevers. Material is concentrated in the flanges, giving the highest second moment of area $(I_{xx})$ per unit mass.
 For this project, a 10mm fillet radius is included at the web-flange junction. This transition is essential for:
  * Stress Distribution: Reducing the stress concentration factor $(K_t)$ where the flange meets the web.
  * Manufacturability: Reflecting the geometry of standard hot-rolled structural sections.
