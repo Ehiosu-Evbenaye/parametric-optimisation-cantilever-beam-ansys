@@ -97,6 +97,13 @@ The distance (d) from the neutral axis to the center of the flange is: <br>
  Knowing that Area of flange $(A_f)$ is = $2250\ mm^2$ <br>
  Therefore, $Ad^2$ = $2250 \times (142.5)^2 = 2250 \times 20,306.25 = 45,689,062.5\ mm^4$
 
+Second moment of area of one flange about the neutral axis:  
+$I_{\text{one flange}} = I_{\text{flange}} + Ad^2 = 42,187.5 + 45,689,062.5 = 45,731,250\ \text{mm}^4$
+
+Now, since there are two flanges, which are both identical, we'll multiply $45,731,250\ \text{mm}^4$ by 2:  
+$I_{\text{the two flanges}} = 2 \times 45,731,250 = 91,462,500\ \text{mm}^4$
+
+
 ##### C. Total $I_{xx}$
 In scientific notation: $1.07865 \times 10^8\ mm^4$ or $1.07865 \times 10^{-4}\ m^4$. <br>
 To convert $mm^4$ to $m^{4}$, divide the value by $10^{12}$.
