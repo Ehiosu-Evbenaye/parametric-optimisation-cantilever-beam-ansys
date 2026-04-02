@@ -1,5 +1,5 @@
 # Parametric Optimisation of a Steel Cantilever Beam Using ANSYS Workbench
-Current stage: Baseline validation complete; taper optimisation and final verification underway. Full report will be updated upon completion.
+Current stage: Baseline validation complete; taper optimisation and final verification underway.
 
 ## Project Overview
 This project performs a static structural analysis and parametric optimisation of a steel cantilever beam in ANSYS Workbench. The goal is to minimise mass while maintaining a minimum safety factor of 2.0 against yield under a transverse end load. <br>
