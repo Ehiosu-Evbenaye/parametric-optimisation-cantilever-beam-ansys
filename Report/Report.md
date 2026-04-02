@@ -73,13 +73,14 @@ Where:
  * $d$ is the distance from the local centroid of the part to the overall neutral axis of the beam.
 
 ##### A. The Web <br>
-The centroid of the web is at the neutral axis, so d = 0.
+The centroid of the web is at the neutral axis, so d = 0. <br>
+So, we'll use the formula: $I_{web} = \frac{b \cdot h^3}{12}$
  * Web thickness $(t_w): 10\ mm$
  * Web height $(h_w): 300 - (2 \times 15) = 270\ mm$ <br>
- *We subtracted the thickness of the top and bottom flanges from the total height* $(h)$ *to get the web height* $(h_w)$.
+ *We subtracted the thickness of the top and bottom flanges from the total height* $(h)$ *to get the web height* $(h_w)$. <br>
+ $I_{web} = \frac{b \cdot h^3}{12}$ <br>
+ $I_{web} = \frac{10 \times 270^3}{12} = \mathbf{16,402,500\text{ mm}^4}$
 
-   $I_{web} = \frac{b \cdot h^3}{12}$
-   
 ##### The Flanges (Top & Bottom) <br>
 Since both flanges are identical and equidistant from the neutral axis, we calculate one and multiply by two. <br>
 The distance (d) from the neutral axis to the center of the flange is:
