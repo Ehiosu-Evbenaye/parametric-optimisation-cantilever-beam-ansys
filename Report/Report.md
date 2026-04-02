@@ -215,3 +215,63 @@ Summary Table for Baseline Validation
 | Safety Factor (Yield) | 12.76 | - |
 
 
+
+
+
+<br>
+
+## Planned Parametric Optimisation
+
+The objective of this study is to minimise the mass of the welded I-section cantilever beam while maintaining a minimum factor of safety (FoS) of 2.0 against yielding under the 10 kN end load.
+
+#### Optimisation Problem Formulation
+**Objective**:  
+$\[
+\text{Minimise } m = \rho \int_0^L A(x) \, dx
+\]$
+
+**Constraints**:  
+$\[
+\text{FoS} = \frac{\sigma_y}{\sigma_{\text{von-Mises, max}}} \geq 2.0
+\]$
+
+where $\(\sigma_y = 355\)$ MPa for S355 steel.
+
+#### Design Variables and Bounds
+| Parameter                        | Symbol                  | Baseline Value | Lower Bound | Upper Bound | Description                          |
+|----------------------------------|-------------------------|----------------|-------------|-------------|--------------------------------------|
+| Root flange width                | $\( b_{f,\text{root}} \)$ | 150 mm         | 100 mm      | 200 mm      | Linear taper from root to tip        |
+| Tip flange width                 | $\( b_{f,\text{tip}} \)$  | 150 mm         | 80 mm       | 150 mm      | —                                    |
+| Root web height                  | $\( h_{\text{root}} \)$   | 300 mm         | 250 mm      | 350 mm      | Linear taper                         |
+| Tip web height                   | $\( h_{\text{tip}} \)$    | 300 mm         | 250 mm      | 350 mm      | —                                    |
+| Flange thickness (constant)      | $\( t_f \)$               | 12 mm          | 8 mm        | 20 mm       | Constant along length                |
+| Web thickness (constant)         | $\( t_w \)$               | 8 mm           | 6 mm        | 12 mm       | Constant along length                |
+| Taper ratio (flange)             | $\( \alpha_f \)$          | 0              | 0.2         | 0.8         | $\(\alpha_f = 1 - b_{f,\text{tip}}/b_{f,\text{root}}\)$ |
+
+#### Planned ANSYS Workflow
+1. Parameterise the I-section sketch in SpaceClaim using Design Points.
+2. Drive all dimensions from a single master sketch with linear taper functions.
+3. Use DesignXplorer → Response Surface Optimisation (or Direct Optimisation).
+4. Generate 50–100 design points (Latin Hypercube or Optimal Space-Filling).
+5. Objective: minimise mass; constraint: FoS ≥ 2.0.
+6. Post-process: sensitivity chart, response surfaces, and candidate points.
+
+#### Literature Review – Tapered I-Beams
+Tapered I-beams are widely used in bending-dominated structures because they place material where the bending moment is highest. Literature consistently reports 15–30 % mass savings compared with prismatic sections while satisfying the same strength and serviceability requirements. Eurocode 3 (EN 1993-1-1) provides specific rules for tapered members, including modified buckling checks.
+
+#### Baseline vs Optimised Comparison (to be populated after FEA)
+| Metric                  | Baseline (Uniform) | Optimised (Tapered) | Improvement |
+|-------------------------|--------------------|---------------------|-------------|
+| Mass                    | 113 kg             | —                   | —           |
+| Max von-Mises stress    | 27.81 MPa          | —                   | —           |
+| FoS                     | 12.76              | ≥ 2.0               | —           |
+| Tip deflection          | —                  | —                   | —           |
+
+#### Additional Physics to be Verified in ANSYS
+- Self-weight (distributed gravity load)
+- Small lateral load (to check lateral-torsional buckling)
+- Eigenvalue buckling analysis
+- Serviceability deflection limit $(\( L/360 \))$
+- Web crippling at support and load point
+
+
