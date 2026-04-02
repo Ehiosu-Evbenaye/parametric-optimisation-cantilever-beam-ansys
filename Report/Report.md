@@ -94,7 +94,7 @@ The distance (d) from the neutral axis to the center of the flange is: <br>
  
  $I_{flange} = \frac{150 \times 15^3}{12} = 42,187.5\ mm^4$ <br>
  
- Knowing that Area of flange $(A_f) is = 2250\ mm^2$
+ Knowing that Area of flange $(A_f)$ is = $2250\ mm^2$ <br>
  Therefore, A $\cdot d^2$ term is = $2250 \times 142.5^2 = 2250 \times 20,306.25 = 45,689,062.5\ mm^4$
 
 ##### C. Total $I_{xx}$
