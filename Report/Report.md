@@ -63,7 +63,7 @@ $m = \rho \times V = 7850 \times 0.0144 = 113.04 \text{ kg}$
 
 
 ## Section Properties 
-##### Second Moment of Area $(I_{xx})$ <br>
+#### Second Moment of Area $(I_{xx})$ <br>
 The general formula used to find the moment of area for a complex shape made of several rectangular parts is the Parallel Axis Theorem: <br>
 $I_{total} = \sum (I_{local} + A \cdot d^2)$ <br>
 
@@ -81,7 +81,9 @@ So, we'll use the formula: $I_{web} = \frac{b \cdot h^3}{12}$
  
  $I_{web} = \frac{b \cdot h^3}{12}$ <br>
  
- $I_{web} = \frac{10 \times 270^3}{12} = \mathbf{16,402,500\text{ mm}^4}$
+ $I_{web} = \frac{10 \times 270^3}{12} = \mathbf{16,402,500\text{ mm}^4}$ <br>
+ 
+ *Units are* ${ mm}^4$, *as expected for a second moment of area.*
 
 ##### The Flanges (Top & Bottom) <br>
 Since both flanges are identical and equidistant from the neutral axis, we calculate one and multiply by two. <br>
@@ -96,7 +98,7 @@ In scientific notation: $1.07865 \times 10^8\ mm^4$ or $1.07865 \times 10^{-4}\ 
 To convert $mm^4$ to $m^{4}$, divide the value by $10^{12}$.
 
 
-##### Maximum Bending Stress $(\sigma_{max})$
+#### Maximum Bending Stress $(\sigma_{max})$
 
 General Equation: The Flexure Formula
 The stress is highest at the outermost fibers (top or bottom surface) at the fixed end of the cantilever:
@@ -107,7 +109,7 @@ The stress is highest at the outermost fibers (top or bottom surface) at the fix
 Calculation <br>
 $\sigma_{max} = \frac{(2 \times 10^7) \times 150}{107,865,000} = \frac{3,000,000,000}{107,865,000} \approx 27.81\text{ MPa}$
 
-##### Maximum Deflection $(\delta_{max})$ <br>
+#### Maximum Deflection $(\delta_{max})$ <br>
 General Equation: Cantilever Beam with End Load
 For a cantilever with a point load at the free end: <br>
 
@@ -121,7 +123,7 @@ Calculation (using mm and N/mm²)
 
 $\delta_{max} = \frac{10,000 \times 2000^3}{3 \times 210,000 \times 107,865,000} = \frac{8 \times 10^{13}}{6.795 \times 10^{13}} \approx 1.177\text{ mm}$
 
-##### Safety Factor (FoS)
+#### Safety Factor (FoS)
 
 General equation:
 
