@@ -63,7 +63,7 @@ $m = \rho \times V = 7850 \times 0.0144 = 113.04 \text{ kg}$
 
 
 ## Section Properties 
-1. Second Moment of Area $(I_{xx})$ <br>
+##### Second Moment of Area $(I_{xx})$ <br>
 The general formula used to find the moment of area for a complex shape made of several rectangular parts is the Parallel Axis Theorem: <br>
 $I_{total} = \sum (I_{local} + A \cdot d^2)$ <br>
 
@@ -72,23 +72,20 @@ Where:
  * $A$ is the area of the specific part.
  * $d$ is the distance from the local centroid of the part to the overall neutral axis of the beam.
 
-2. Step-by-Step Calculation
-For a symmetric I-section, the neutral axis passes through the exact center of the web. <br>
-
-A. The Web <br>
+##### A. The Web <br>
 The centroid of the web is at the neutral axis, so d = 0.
  * Width $(t_w): 10\ mm$
  * Height $(h_w): 300 - (2 \times 15) = 270\ mm$
    
-B. The Flanges (Top & Bottom) <br>
-Since both flanges are identical and equidistant from the neutral axis, we calculate one and multiply by two.
+##### The Flanges (Top & Bottom) <br>
+Since both flanges are identical and equidistant from the neutral axis, we calculate one and multiply by two. <br>
 The distance (d) from the neutral axis to the center of the flange is:
 d = $\frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\ mm$
  * Local Moment $(I_f): \frac{150 \times 15^3}{12} = 42,187.5\ mm^4$
  * Area $(A_f): 2250\ mm^2$
  * A $\cdot d^2$ Term: $2250 \times 142.5^2 = 2250 \times 20,306.25 = 45,689,062.5\ mm^4$
 
-C. Total $I_{xx}$
+##### C. Total $I_{xx}$
 In scientific notation: $1.07865 \times 10^8\ mm^4$ or $1.07865 \times 10^{-4}\ m^4$. <br>
 To convert $mm^4$ to $m^{4}$, divide the value by $10^{12}$.
 
