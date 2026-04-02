@@ -18,7 +18,9 @@ While a 10mm fillet radius is modeled at the web-flange junction in the FEA envi
 * Stress Distribution: Representing the weld profile to reduce the stress concentration factor $(K_t)$ at the junction.
 * Simulation Accuracy: Preventing mathematical stress singularities in ANSYS that occur at sharp 90-degree internal corners.
 * Mesh Integrity: Serving as the primary region for the mesh convergence study to ensure stable stress results.
+<br>
 
+<br>
 
 Baseline Uniform I‑Section Dimensions
  * Total height $(h): 300\text{ mm}$
@@ -26,14 +28,20 @@ Baseline Uniform I‑Section Dimensions
  * Flange thickness $(t_f): 15\text{ mm}$
  * Web thickness $(t_w): 10\text{ mm}$
  * Beam length $(L): 2000\text{ mm}$
+<br>
+
+<br>
 
 Material Properties (S355 Structural Steel)
  * Young’s modulus $(E): 210\text{ GPa}$
  * Poisson’s ratio $(\nu): 0.3$
  * Yield strength $(\sigma_y): 355\text{ MPa}$
  * Density $(\rho): 7850\text{ kg/m}^3$
+<br>
 
-### Geometric Properties 
+<br>
+
+## Geometric Properties 
 Cross‑Sectional Area (A) <br>
 The total cross-sectional area accounts for the three primary rectangular sections (ignoring the weld area): <br>
 Area of top flange = $b_f \times f_f = 150 \times 15 = 2250\ mm^2$ <br>
@@ -55,7 +63,7 @@ Mass $(m)$ <br>
 $m = \rho \times V = 7850 \times 0.0144 = 113.04 \text{ kg}$
 
 
-### Section Properties 
+## Section Properties 
 1. General Equation: Parallel Axis Theorem <br>
 The general formula used to find the moment of area for a complex shape made of several rectangular parts is the Parallel Axis Theorem: $I_{total} = \sum (I_{local} + A \cdot d^2)$ <br>
 Where:
@@ -130,7 +138,7 @@ $FoS = \frac{355\text{ MPa}}{27.81\text{ MPa}} \approx 12.76$
 
 
 
-### Load and Moment Analysis 
+## Load and Moment Analysis 
 
 To validate the ANSYS results, we define the internal loading conditions. For a cantilever beam of length $L$ subjected to a vertical point load P at the free end $(x = L)$, the internal shear force and bending moment are functions of the distance $x$ from the fixed support $(x = 0)$.
 
@@ -146,7 +154,7 @@ The bending moment varies linearly, reaching its maximum magnitude at the fixed 
 
  
  
- ### 2. Analytical Stress and Deflection
+ ## Analytical Stress and Deflection
 A. Normal Bending Stress $(\sigma)$
 Using the Euler-Bernoulli beam theory, the maximum bending stress occurs at the outermost fibers $(y = c)$ at the fixed end.
  Section Modulus $(S_x): S_x = \frac{I_{xx}}{c}$
