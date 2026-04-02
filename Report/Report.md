@@ -69,8 +69,8 @@ $I_{total} = \sum (I_{local} + A \cdot d^2)$ <br>
 
 Where:
  * $I_{local} = \frac{b \cdot h^3}{12}$ (The local moment of area for a rectangle).
- * $A$ is the Area of the specific part.
- * $d$ is the Distance from the local centroid of the part to the overall neutral axis of the beam.
+ * $A$ is the area of the specific part.
+ * $d$ is the distance from the local centroid of the part to the overall neutral axis of the beam.
 
 2. Step-by-Step Calculation
 For a symmetric I-section, the neutral axis passes through the exact center of the web. <br>
