@@ -50,8 +50,8 @@ The total cross-sectional area is calculated based on the three primary rectangu
 * Total Area = $2250 + 2250 + 2700 = 7200\ mm^2$
 
 Volume 
-$V = 7200 mm^2 \times 2000 mm^2 = 14,400,000 \ mm^3$ <br>
-Converting that to $m^3$, we divide by $1,000,000,000$ since $\( 1 \ m^3 = 10^9 \ mm^3 \):$ <br>
+$V = 7200\ mm^2 \times 2000\ mm = 14,400,000 \ mm^3$ <br>
+Converting $mm^3$ to $m^3$, we divide by $1,000,000,000$ since $\( 1 \ m^3 = 10^9 \ mm^3 \):$ <br>
 $\[
 V = \frac{14,400,000}{1,000,000,000} \ m^3 = 0.0144 \ m^3
 \]$
@@ -105,6 +105,9 @@ $I_{both~flanges} = 2 \times 45,731,250 = 91,462,500\ mm^4$
 
 
 ##### C. Total $I_{xx}$
+Total $I_{xx} = I_{web} + I_{both~flanges}$ <br>
+Total $I_{xx} = {16,402,500\ mm^4} + 91,462,500\ mm^4 = 107,865,000\ mm^4$
+
 In scientific notation: $1.07865 \times 10^8\ mm^4$ or $1.07865 \times 10^{-4}\ m^4$. <br>
 To convert $mm^4$ to $m^{4}$, divide the value by $10^{12}$.
 
