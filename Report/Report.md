@@ -68,14 +68,17 @@ The general formula used to find the moment of area for a complex shape made of 
 $I_{total} = \sum (I_{local} + A \cdot d^2)$ <br>
 
 Where:
- * $I_{local} = \frac{b \cdot h^3}{12}$ (The local moment of area for a rectangle).
+ * $I_{local} = \frac{b \cdot h^3}{12}$ *(The local moment of area for a rectangle)*.
  * $A$ is the area of the specific part.
  * $d$ is the distance from the local centroid of the part to the overall neutral axis of the beam.
 
 ##### A. The Web <br>
 The centroid of the web is at the neutral axis, so d = 0.
- * Width $(t_w): 10\ mm$
- * Height $(h_w): 300 - (2 \times 15) = 270\ mm$
+ * Web thickness $(t_w): 10\ mm$
+ * Web height $(h_w): 300 - (2 \times 15) = 270\ mm$ <br>
+ *We subtracted the thickness of the top and bottom flanges from the total height* $(h)$ *to get the web height* $(h_w)$.
+
+   $I_{web} = \frac{b \cdot h^3}{12}$
    
 ##### The Flanges (Top & Bottom) <br>
 Since both flanges are identical and equidistant from the neutral axis, we calculate one and multiply by two. <br>
