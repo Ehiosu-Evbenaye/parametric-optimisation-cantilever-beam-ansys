@@ -88,8 +88,12 @@ So, we'll use the formula: $I_{web} = \frac{b \cdot h^3}{12}$
 ##### B. Second Moment of Area of The Flanges (Top & Bottom) <br>
 Since both flanges are identical and equidistant from the neutral axis, we calculate one and multiply by two. <br>
 The distance (d) from the neutral axis to the center of the flange is: <br>
-d = $\frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\ mm$
- * Local Moment $(I_f): \frac{150 \times 15^3}{12} = 42,187.5\ mm^4$
+ d = $\frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\ mm$
+
+ $I_{flange} = \frac{b \cdot h^3}{12}$ <br>
+ 
+ $I_{flange} = \frac{150 \times 15^3}{12} = 42,187.5\ mm^4$ <br>
+ 
  * Area $(A_f): 2250\ mm^2$
  * A $\cdot d^2$ Term: $2250 \times 142.5^2 = 2250 \times 20,306.25 = 45,689,062.5\ mm^4$
 
