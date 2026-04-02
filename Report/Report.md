@@ -72,7 +72,7 @@ Where:
  * $A$ is the area of the specific part.
  * $d$ is the distance from the local centroid of the part to the overall neutral axis of the beam.
 
-##### A. Second Moment of Area of The Web <br>
+##### A. Second Moment of Area of the Web <br>
 The centroid of the web is at the neutral axis, so d = 0. <br>
 So, we'll use the formula: $I_{web} = \frac{b \cdot h^3}{12}$
  * Web thickness $(t_w): 10\ mm$
@@ -85,7 +85,7 @@ So, we'll use the formula: $I_{web} = \frac{b \cdot h^3}{12}$
  
  *Units are* ${ mm}^4$, *as expected for a second moment of area.*
 
-##### B. Second Moment of Area of The Flanges (Top & Bottom) <br>
+##### B. Second Moment of Area of the Flanges (Top & Bottom) <br>
 Since both flanges are identical and equidistant from the neutral axis, we calculate one and multiply by two. <br>
 The distance (d) from the neutral axis to the center of the flange is: <br>
  d = $\frac{h}{2} - \frac{t_f}{2} = 150 - 7.5 = 142.5\ mm$
