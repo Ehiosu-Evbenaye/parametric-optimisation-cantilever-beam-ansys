@@ -2,22 +2,23 @@
 Current stage: Baseline validation complete; taper optimisation and final verification underway.
 
 ## Project Overview
-This project performs a static structural analysis and parametric optimisation of a steel cantilever beam in ANSYS Workbench. The goal is to minimise mass while maintaining a minimum safety factor of 2.0 against yield under a transverse end load. <br>
+This project performs a static structural analysis and parametric optimisation of a fabricated steel cantilever beam in ANSYS Workbench. The goal is to minimise mass while maintaining a minimum safety factor of 2.0 against yield under a transverse end load. <br>
 
 Completed:
  * Baseline FEA model validated against refined analytical theory (<3% deflection error)
  * Mesh convergence study (<2% stress variation at fillet transitions)
-In Progress
+In Progress:
  * Taper optimisation (preliminary results suggest up to 18% mass reduction)
  * Final verification and sensitivity analysis
  * Full technical documentation
 
-## Why an I‑Section Was Chosen
-An I‑section (universal beam) was deliberately selected because it is the most structurally efficient shape for bending‑dominated cantilevers. Material is concentrated in the flanges, giving the highest second moment of area $(I_{xx})$ per unit mass.
-For this project, a 10mm fillet radius is included at the web-flange junction. This transition is essential for:
- * Stress Distribution: Reducing the stress concentration factor $(K_t)$ where the flange meets the web.
- * Manufacturability: Reflecting the geometry of standard hot-rolled structural sections.
- * Simulation Accuracy: Preventing mathematical stress singularities in ANSYS that occur at sharp 90-degree internal corners.
+## Structural Configuration: Welded I-Section
+An I-section (universal beam) profile was selected for its structural efficiency in bending-dominated applications. For this project, the section is a fabricated assembly where the web and flanges are joined by welding.
+While a 10mm fillet radius is modeled at the web-flange junction in the FEA environment, the total area of the weld is considered negligible for the analytical cross-sectional calculations. This 10mm transition remains essential for:
+* Stress Distribution: Representing the weld profile to reduce the stress concentration factor $(K_t)$ at the junction.
+* Simulation Accuracy: Preventing mathematical stress singularities in ANSYS that occur at sharp 90-degree internal corners.
+* Mesh Integrity: Serving as the primary region for the mesh convergence study to ensure stable stress results.
+
 
 Baseline Uniform I‑Section Dimensions
  * Total height $(h): 300\text{ mm}$
