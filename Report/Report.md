@@ -43,12 +43,11 @@ Material Properties (S355 Structural Steel)
 
 ## Geometric Properties 
 Cross‑Sectional Area (A) <br>
-The total cross-sectional area accounts for the three primary rectangular sections (ignoring the weld area): <br>
-Area of top flange = $b_f \times f_f = 150 \times 15 = 2250\ mm^2$ <br>
-Area of bottom flange = $b_f \times f_f = 150 \times 15 = 2250\ mm^2$ <br>
-Area of web = $t_w \times (h - 2t_f) = 10 \times (300 - 30) = 10 \times 270 = 2700\ mm^2$ <br>
-Total = $2250 + 2250 + 2700 = 7200\ mm^2$
-(Note: The weld area is ignored).
+The total cross-sectional area is calculated based on the three primary rectangular plates. Following standard engineering simplification for fabricated sections, the weld area is ignored: <br>
+* Area of top flange = $b_f \times f_f = 150 \times 15 = 2250\ mm^2$ <br>
+* Area of bottom flange = $b_f \times f_f = 150 \times 15 = 2250\ mm^2$ <br>
+* Area of web = $t_w \times (h - 2t_f) = 10 \times (300 - 30) = 10 \times 270 = 2700\ mm^2$ <br>
+* Total Area = $2250 + 2250 + 2700 = 7200\ mm^2$
 
 Volume 
 $V = 7200 mm^2 \times 2000 mm^2 = 14,400,000 \ mm^3$ <br>
