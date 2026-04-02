@@ -149,14 +149,6 @@ $FoS = \frac{355 \, \text{MPa}}{27.81 \, \text{MPa}} \approx 12.76\$
 
 
 
-Safety Factor (FoS)
-General Equation
-$FoS = \frac{\sigma_y}{\sigma_{max}}$
-
-Calculation
-$FoS = \frac{355\text{ MPa}}{27.81\text{ MPa}} \approx 12.76$
-
-
 
 ## Load and Moment Analysis 
 
